@@ -28,10 +28,10 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { NavDocuments } from "@/dashboard/components/nav-documents";
-import { NavMain } from "@/dashboard/components/nav-main";
-import { NavSecondary } from "@/dashboard/components/nav-secondary";
-import { NavUser } from "@/dashboard/components/nav-user";
+import { NavDocuments } from "@/pages/dashboard/components/nav-documents";
+import { NavMain } from "@/pages/dashboard/components/nav-main";
+import { NavSecondary } from "@/pages/dashboard/components/nav-secondary";
+import { NavUser } from "@/pages/dashboard/components/nav-user";
 
 const data = {
   user: {
