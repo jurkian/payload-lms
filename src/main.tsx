@@ -11,6 +11,7 @@ import Home from "@/pages/home";
 import Login from "@/pages/login";
 import Dashboard from "@/pages/dashboard";
 import SingleLesson from "@/pages/dashboard/single-lesson";
+import MyAccount from "@/pages/dashboard/my-account";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/panel/lesson/:lessonId",
     Component: SingleLesson,
+  },
+  {
+    path: "/panel/my-account",
+    Component: MyAccount,
   },
 ]);
 
