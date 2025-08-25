@@ -9,6 +9,7 @@ import sharp from 'sharp'
 
 import { Admins } from './collections/Admins'
 import { Logs } from './collections/Logs'
+import { Courses } from './collections/Courses'
 import { Users } from './collections/Users'
 import { Media } from './collections/Media'
 
@@ -22,7 +23,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Admins, Logs, Users, Media],
+  collections: [Admins, Logs, Courses, Users, Media],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {
