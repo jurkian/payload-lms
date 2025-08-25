@@ -1,6 +1,7 @@
 import type { CollectionConfig } from 'payload'
 
 import { groupNames } from '../shared/group-names'
+import hooks from './hooks'
 
 export const Courses: CollectionConfig = {
   slug: 'courses',
@@ -30,5 +31,6 @@ export const Courses: CollectionConfig = {
       relationTo: 'users',
     },
   ],
+  hooks,
   timestamps: true,
 }
