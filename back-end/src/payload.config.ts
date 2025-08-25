@@ -11,6 +11,7 @@ import { Logs } from './collections/Logs'
 import { Courses } from './collections/Courses'
 import { Lessons } from './collections/Lessons'
 import { Comments } from './collections/Comments'
+import { Pages } from './collections/Pages'
 import { Users } from './collections/Users'
 import { Media } from './collections/Media'
 
@@ -24,7 +25,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Admins, Logs, Courses, Lessons, Comments, Users, Media],
+  collections: [Admins, Logs, Courses, Lessons, Comments, Pages, Users, Media],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {
