@@ -8,6 +8,7 @@ import { fileURLToPath } from 'url'
 import sharp from 'sharp'
 
 import { Admins } from './collections/Admins'
+import { Logs } from './collections/Logs'
 import { Users } from './collections/Users'
 import { Media } from './collections/Media'
 
@@ -21,7 +22,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Admins, Users, Media],
+  collections: [Admins, Logs, Users, Media],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {
