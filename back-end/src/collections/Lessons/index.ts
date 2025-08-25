@@ -1,6 +1,7 @@
 import type { CollectionConfig } from 'payload'
 
 import { groupNames } from '../shared/group-names'
+import hooks from './hooks'
 
 export const Lessons: CollectionConfig = {
   slug: 'lessons',
@@ -23,5 +24,6 @@ export const Lessons: CollectionConfig = {
       relationTo: 'courses',
     },
   ],
+  hooks,
   timestamps: true,
 }
