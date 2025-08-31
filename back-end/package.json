@@ -16,16 +16,16 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
-    "@payloadcms/db-sqlite": "3.53.0",
-    "@payloadcms/next": "3.53.0",
-    "@payloadcms/richtext-lexical": "3.53.0",
-    "@payloadcms/ui": "3.53.0",
+    "@payloadcms/db-sqlite": "3.54.0",
+    "@payloadcms/next": "3.54.0",
+    "@payloadcms/richtext-lexical": "3.54.0",
+    "@payloadcms/ui": "3.54.0",
     "cross-env": "^7.0.3",
     "dotenv": "16.4.7",
     "graphql": "^16.8.1",
-    "libsql": "^0.5.17",
-    "next": "15.4.4",
-    "payload": "3.53.0",
+    "libsql": "^0.5.20",
+    "next": "15.5.2",
+    "payload": "3.54.0",
     "react": "19.1.1",
     "sharp": "0.34.2"
   },
@@ -37,7 +37,7 @@
     "eslint-config-next": "15.4.4",
     "jsdom": "26.1.0",
     "prettier": "^3.4.2",
-    "typescript": "5.7.3",
+    "typescript": "5.9.2",
     "vite-tsconfig-paths": "5.1.4"
   },
   "engines": {
