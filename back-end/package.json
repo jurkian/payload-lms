@@ -16,28 +16,28 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
-    "@payloadcms/db-sqlite": "3.54.0",
-    "@payloadcms/next": "3.54.0",
-    "@payloadcms/richtext-lexical": "3.54.0",
-    "@payloadcms/ui": "3.54.0",
-    "cross-env": "^7.0.3",
-    "dotenv": "16.4.7",
-    "graphql": "^16.8.1",
-    "libsql": "^0.5.20",
-    "next": "15.5.2",
-    "payload": "3.54.0",
-    "react": "19.1.1",
-    "sharp": "0.34.2"
+    "@payloadcms/db-sqlite": "3.62.0",
+    "@payloadcms/next": "3.62.0",
+    "@payloadcms/richtext-lexical": "3.62.0",
+    "@payloadcms/ui": "3.62.0",
+    "cross-env": "^10.1.0",
+    "dotenv": "17.2.3",
+    "graphql": "^16.11.0",
+    "libsql": "^0.5.22",
+    "next": "16.0.1",
+    "payload": "3.62.0",
+    "react": "19.2.0",
+    "sharp": "0.34.4"
   },
   "devDependencies": {
-    "@types/node": "^22.5.4",
-    "@types/react": "19.1.8",
-    "@types/react-dom": "19.1.6",
-    "eslint": "^9.16.0",
-    "eslint-config-next": "15.4.4",
-    "jsdom": "26.1.0",
-    "prettier": "^3.4.2",
-    "typescript": "5.9.2",
+    "@types/node": "^24.9.2",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "eslint": "^9.38.0",
+    "eslint-config-next": "16.0.1",
+    "jsdom": "27.1.0",
+    "prettier": "^3.6.2",
+    "typescript": "5.9.3",
     "vite-tsconfig-paths": "5.1.4"
   },
   "engines": {
@@ -51,5 +51,5 @@
       "unrs-resolver"
     ]
   },
-  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+  "packageManager": "pnpm@10.20.0"
 }
