@@ -2,6 +2,7 @@ import type { CollectionConfig } from 'payload'
 
 import { groupNames } from '../shared/group-names'
 import hooks from './hooks'
+import { lessonsEndpoints } from './endpoints'
 
 export const Lessons: CollectionConfig = {
    slug: 'lessons',
@@ -26,11 +27,12 @@ export const Lessons: CollectionConfig = {
          type: 'text',
       },
       {
-         name: 'course',
+         name: 'relatedCourse',
          type: 'relationship',
          relationTo: 'courses',
       },
    ],
    hooks,
    timestamps: true,
+   endpoints: lessonsEndpoints,
 }
