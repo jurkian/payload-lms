@@ -4,7 +4,7 @@ import { getCourses } from './get'
 import { createCourse } from './create'
 import { deleteCourse } from './delete'
 
-export const commentsEndpoints: Endpoint[] = [
+export const coursesEndpoints: Endpoint[] = [
    {
       path: '/',
       method: 'get',
