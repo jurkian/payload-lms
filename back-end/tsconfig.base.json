@@ -1,0 +1,11 @@
+{
+   "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+         "@/*": ["./src/*"],
+         "@payload-config": ["./src/payload.config.ts"],
+         "@utils/*": ["./src/@utils/*"],
+         "@access/*": ["./src/@utils/access/*"]
+      }
+   }
+}
