@@ -6,7 +6,14 @@ Expect bugs, but feel free to use the current code.
 
 ## Features
 
-...
+- Login and register routes
+- Courses, lessons and comments collections - to provide content
+- Stripe Webhook to handle payments
+- Logs - to save important actions
+- Pages - to publish some content
+- Bans - to prevent some users from logging in, or even registering
+- Admins - to provide a feature for special users to manage the platform
+- Many other utils to handle errors, responses, help with uploads or code organization
 
 ### How to run it?
 
