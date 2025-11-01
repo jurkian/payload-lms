@@ -14,6 +14,7 @@ import { Lessons } from './collections/Lessons'
 import { Comments } from './collections/Comments'
 import { Pages } from './collections/Pages'
 import { Users } from './collections/Users'
+import { Tester } from './collections/Tester'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -25,7 +26,7 @@ export default buildConfig({
          baseDir: path.resolve(dirname),
       },
    },
-   collections: [Admins, Bans, Logs, Courses, Lessons, Comments, Pages, Users],
+   collections: [Admins, Bans, Logs, Courses, Lessons, Comments, Pages, Users, Tester],
    editor: lexicalEditor(),
    secret: process.env.PAYLOAD_SECRET || '',
    typescript: {
