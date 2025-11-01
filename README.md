@@ -13,9 +13,9 @@ Expect bugs, but feel free to use the current code.
 1. Install `NodeJS` and `npm`/`pnpm`
 2. Run `pnpm install`
 
-3. Go to [Stripe's Dashboard](https://dashboard.stripe.com) and search for API keys. You will need a secret key
+3. Go to [Stripe's Dashboard](https://dashboard.stripe.com) and search for API keys. You will need a private/secret API key
 4. `.env` -> Set your private API key in `STRIPE_SECRET_KEY` variable
-5. Prepare the [Stripe CLI for local debugging](https://docs.stripe.com/stripe-cli/install). When you are logged in, you will get your webhook key
+5. Prepare the [Stripe CLI for local debugging](https://docs.stripe.com/stripe-cli/install). When you are logged in, you will get your Stripe webhook key
 6. `.env` -> Set your Stripe webhook key in `STRIPE_WEBHOOK_SECRET` variable
 7. Run `pnpm dev` to start the dev server
 8. You will be asked to create the first local user (admin) - do it
